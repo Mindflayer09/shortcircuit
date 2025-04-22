@@ -1,0 +1,45 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circuit Board -->
+  <rect width="200" height="200" fill="#000" rx="10" />
+  
+  <!-- Circuit Paths -->
+  <path d="M30,20 L170,20 L170,80 L120,80 L120,120 L170,120 L170,180 L30,180 L30,120 L80,120 L80,80 L30,80 Z" 
+        stroke="#2DD4BF" 
+        stroke-width="4" 
+        fill="none" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+  
+  <!-- Connection Points -->
+  <circle cx="30" cy="20" r="6" fill="#2DD4BF" />
+  <circle cx="170" cy="20" r="6" fill="#2DD4BF" />
+  <circle cx="170" cy="80" r="6" fill="#2DD4BF" />
+  <circle cx="120" cy="80" r="6" fill="#2DD4BF" />
+  <circle cx="120" cy="120" r="6" fill="#2DD4BF" />
+  <circle cx="170" cy="120" r="6" fill="#2DD4BF" />
+  <circle cx="170" cy="180" r="6" fill="#2DD4BF" />
+  <circle cx="30" cy="180" r="6" fill="#2DD4BF" />
+  <circle cx="30" cy="120" r="6" fill="#2DD4BF" />
+  <circle cx="80" cy="120" r="6" fill="#2DD4BF" />
+  <circle cx="80" cy="80" r="6" fill="#2DD4BF" />
+  <circle cx="30" cy="80" r="6" fill="#2DD4BF" />
+  
+  <!-- Lightning Bolt -->
+  <path d="M100,40 L75,90 L110,100 L90,160" 
+        stroke="#2DD4BF" 
+        stroke-width="12" 
+        fill="none" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+  
+  <!-- Electric Glow Effect -->
+  <circle cx="100" cy="100" r="75" fill="url(#glow)" opacity="0.2" />
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="1" />
+      <stop offset="100%" stop-color="#000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+</svg>
