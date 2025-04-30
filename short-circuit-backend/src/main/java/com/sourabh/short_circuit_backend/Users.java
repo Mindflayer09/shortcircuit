@@ -1,4 +1,4 @@
-package com.himansyou.short_circuit_backend;
+package com.sourabh.short_circuit_backend;
 
 import jakarta.persistence.*;
 import lombok.Getter;

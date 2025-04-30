@@ -1,4 +1,4 @@
-package com.himansyou.short_circuit_backend;
+package com.sourabh.short_circuit_backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

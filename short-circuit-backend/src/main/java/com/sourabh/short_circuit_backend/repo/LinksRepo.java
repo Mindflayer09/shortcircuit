@@ -1,6 +1,6 @@
-package com.himansyou.short_circuit_backend.repo;
+package com.sourabh.short_circuit_backend.repo;
 
-import com.himansyou.short_circuit_backend.Links;
+import com.sourabh.short_circuit_backend.Links;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.himansyou.short_circuit_backend.configs;
+package com.sourabh.short_circuit_backend.configs;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

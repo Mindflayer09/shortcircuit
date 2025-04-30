@@ -1,8 +1,8 @@
-package com.himansyou.short_circuit_backend.controllers;
+package com.sourabh.short_circuit_backend.controllers;
 
-import com.himansyou.short_circuit_backend.Links;
-import com.himansyou.short_circuit_backend.services.ShortenUrl;
-import com.himansyou.short_circuit_backend.UrlDTO;
+import com.sourabh.short_circuit_backend.Links;
+import com.sourabh.short_circuit_backend.services.ShortenUrl;
+import com.sourabh.short_circuit_backend.UrlDTO;
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

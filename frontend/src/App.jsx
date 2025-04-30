@@ -90,7 +90,7 @@ function App() {
           <div className={`w-64 border-r border-teal-400/30 p-6 absolute md:relative z-30 bg-black h-full transition-transform duration-300 ease-in-out ${
             isSidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'
           }`}>
-            <a href="https://github.com/himansyou" target="_blank" rel="noopener noreferrer" className="flex items-center text-s font-medium hover:text-teal-400 transition-colors">
+            <a href="https://github.com/mindflayer09" target="_blank" rel="noopener noreferrer" className="flex items-center text-s font-medium hover:text-teal-400 transition-colors">
               <img src="/githubb.png" alt="GitHub" className="w-6 h-6 mr-2 invert" />
               visit my GitHub
             </a>
